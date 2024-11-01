@@ -1,4 +1,10 @@
+// next.config.js
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    images: {
+      domains: ["wallpapers.com","images.unsplash.com"],
+    },
+  };
+  
+  export default nextConfig;
+  
